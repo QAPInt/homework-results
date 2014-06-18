@@ -9,6 +9,7 @@ function Student(data){
 function StudentsViewModel(homeworks, students){
 	this.homeworks = ko.observableArray(homeworks);
 	this.students = ko.observableArray(students.slice(0, 3).map(Student));
+	this.issues = interpolate('https://api.github.com/repos/{ account }/{ project }/issues');
 
 	this.mark = function(student, work){
 		return '6';
