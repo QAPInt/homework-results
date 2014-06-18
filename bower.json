@@ -18,6 +18,8 @@
     "tests"
   ],
   "dependencies": {
-    "knockout.js": "~3.1.0"
+    "knockout.js": "~3.1.0",
+    "bootstrap-css": "~3.1.1",
+    "string-interpolate": "~0.4.0"
   }
 }

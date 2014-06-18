@@ -1,0 +1,30 @@
+{
+  "name": "string-interpolate",
+  "version": "0.4.0",
+  "description": "Simple string interpolation",
+  "license": "MIT",
+  "main": "index.js",
+  "author": "Alexey Raspopov (https://github.com/alexeyraspopov)",
+  "moduleType": [
+    "globals",
+    "node"
+  ],
+  "ignore": [
+    "*",
+    "!index.js",
+    "!interpolate.js",
+    "!bower.json",
+    "!readme.md"
+  ],
+  "homepage": "https://github.com/alexeyraspopov/string-interpolate",
+  "_release": "0.4.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.4.0",
+    "commit": "1e90b7ccc21aba16da957079277dcecc6f0c9e51"
+  },
+  "_source": "git://github.com/alexeyraspopov/string-interpolate.git",
+  "_target": "~0.4.0",
+  "_originalSource": "string-interpolate",
+  "_direct": true
+}
