@@ -1,0 +1,15 @@
+.mark{
+	display: block;
+	width: 16px;
+	height: 16px;
+	border: 1px solid;
+	border-radius: 4px;
+}
+
+.mark[data-mark="A"]{
+	background-color: #1e6823;
+}
+
+.table tbody tr td{
+	vertical-align: middle;
+}
