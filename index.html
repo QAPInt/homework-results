@@ -5,6 +5,23 @@
 	<title></title>
 </head>
 <body>
+	<table class="results">
+		<thead>
+			<th></th>
+			<!-- ko foreach: { data: homeworks, as: 'work' } -->
+				<th data-bind="text: work.title"></th>
+			<!-- /ko -->
+		</thead>
+		<tbody data-bind="foreach: { data: students, as: 'student' }">
+			<td data-bind="text: student.name"></td>
+			<!-- ko foreach: { data: $parent.homeworks, as: 'work' } -->
+				<td data-bind="text: $root.mark(student, work)"></td>
+			<!-- /ko -->
+		</tbody>
+	</table>
 
+	<script src="bower_components/knockout.js/knockout.js"></script>
+	<script src="src/students-viewmodel.js"></script>
+	<script src="src/setup.js"></script>
 </body>
 </html>
