@@ -1,3 +1,9 @@
 [
-	{ "title": "demo-project", "max-mark": 10 }
+	{ "title": "demo-project" },
+	{ "title": "task-html-semantic" },
+	{ "title": "task-css-animation" },
+	{ "title": "task-css-layout" },
+	{ "title": "task-js-functions" },
+	{ "title": "task-js-prototypes" },
+	{ "title": "task-mvc" }
 ]
