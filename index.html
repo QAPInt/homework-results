@@ -20,9 +20,7 @@
 				<a data-bind="text: student.name, attr: { href: student.link }" target="_blank"></a>
 			</td>
 			<!-- ko foreach: { data: $parent.homeworks, as: 'work' } -->
-				<td>
-					<span data-bind="text: $root.mark(student, work)"></span> / <span data-bind="text: work['max-mark']"></span>
-				</td>
+				<td data-bind="text: $root.mark(student, work)"></td>
 			<!-- /ko -->
 		</tbody>
 	</table>
